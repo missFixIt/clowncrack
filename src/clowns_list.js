@@ -6,7 +6,7 @@ import brittany from './audio/Brittany01.mp3';
 import brittany2 from './audio/Brittany02.mp3';
 
 
-const sounds = [
+const clowns = [
 
     {
         id: 1,
@@ -14,7 +14,7 @@ const sounds = [
         buttonName: 'Brittany01',
         clownName: 'Brittany!',
         color: 'red',
-        size: "200px",
+        size: 22,
             
     },
     {
@@ -23,7 +23,7 @@ const sounds = [
         buttonName: 'Bruce01',
         clownName: 'Bruce!',
         color: 'blue',
-        size: "200px",
+        size: 31,
     },
     {
         id: 3,
@@ -31,7 +31,7 @@ const sounds = [
         buttonName: 'Bruce02',
         clownName: 'Bruce!',
         color: 'violet',
-        size: "50px",
+        size: 5,
     },
     {
         id: 4,
@@ -39,7 +39,7 @@ const sounds = [
         buttonName: 'Bruce03',
         clownName: 'Bruce!',
         color: 'aqua',
-        size: "70px",
+        size: 7,
     },
 
     {
@@ -48,7 +48,7 @@ const sounds = [
         buttonName: 'Brittany02',
         clownName: 'Brittany!',
         color: 'yellow',
-        size: "120px",
+        size: 12,
             
     },
     {
@@ -57,10 +57,10 @@ const sounds = [
         buttonName: 'Bruce04',
         clownName: 'Bruce!',
         color: 'green',
-        size: "100px",
+        size: 10,
     },
 
     
 ];
-export default sounds;
+export default clowns;
 export { bruce, brittany, bruce2, bruce3, bruce4, brittany2 };
