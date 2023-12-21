@@ -34,8 +34,8 @@ export default function Clown(props) {
                     width: width,
                     height: height
                 }
-            } onClick={clickHandler} className="button">{props.clownName} {play ? "Stop!" : "Laugh!"}</button>
-            <audio id={'clown' +  props.id } src={props.url} loop />
+            } onClick={clickHandler} className="button">{props.clownName}<br/>{play ? "Stop!" : "Laugh!"}</button>
+            <audio id={'clown' +  props.id } src={'https://valeriepower.com/portfolio/clowncrack' + props.url} loop />
         </div>
     )
     

@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7f621a18.css",
+    "main.js": "/static/js/main.3b210307.js",
+    "static/js/787.5e15b021.chunk.js": "/static/js/787.5e15b021.chunk.js",
+    "static/media/Brittany2.mp3": "/static/media/Brittany2.b6f04e09287e802713dd.mp3",
+    "static/media/Brittany1.mp3": "/static/media/Brittany1.9888ee843f3698cb9830.mp3",
+    "static/media/Eliot2.mp3": "/static/media/Eliot2.a5b684486088af9e80ed.mp3",
+    "static/media/BruceWeird.mp3": "/static/media/BruceWeird.3bab3e5b5cc7925b311b.mp3",
+    "static/media/BruceMorse.mp3": "/static/media/BruceMorse.1de74cfa107113480637.mp3",
+    "static/media/Aedwyrd2.mp3": "/static/media/Aedwyrd2.1aa77d90914f67abf8a3.mp3",
+    "static/media/Eliot1.mp3": "/static/media/Eliot1.f6dbfe374121d70d18a1.mp3",
+    "static/media/BruceJolly.mp3": "/static/media/BruceJolly.44e15f08c3d6e4fd7a01.mp3",
+    "static/media/BruceEvil.mp3": "/static/media/BruceEvil.31e2042ea43b98a755a7.mp3",
+    "static/media/Aedwyrd1.mp3": "/static/media/Aedwyrd1.9b1273c8b22ae072a34b.mp3",
+    "index.html": "/index.html",
+    "main.7f621a18.css.map": "/static/css/main.7f621a18.css.map",
+    "main.3b210307.js.map": "/static/js/main.3b210307.js.map",
+    "787.5e15b021.chunk.js.map": "/static/js/787.5e15b021.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7f621a18.css",
+    "static/js/main.3b210307.js"
+  ]
+}
