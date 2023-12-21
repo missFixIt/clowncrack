@@ -5,8 +5,8 @@ At first I wasn't convinced that the app would actually be an app in my definiti
 But the more we laughed about it and came up with ideas, the more I realized it was actually a good assignment.
 It will become a silly app with clown faces that you can click on and they start laughing. I haven't decided what the interface will look like yet, just working with audio in React as an exercise.
 
-link:
-<a href="https://missfixit.github.io/clowncrack/public/index.html">
+
+<a href="https://missfixit.github.io/clowncrack/public/index.html">check it out here</a>
 
 Dev Notes for myself
 12/08/23
