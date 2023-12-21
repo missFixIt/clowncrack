@@ -1,10 +1,13 @@
-import bruce from './audio/Bruce01.mp3';
-import bruce2 from './audio/Bruce02.mp3';
-import bruce3 from './audio/Bruce03.mp3';
-import bruce4 from './audio/Bruce04.mp3';
-import brittany from './audio/Brittany01.mp3';
-import brittany2 from './audio/Brittany02.mp3';
-
+import Aedwyrd1 from './audio/Aedwyrd1.mp3';
+import Aedwyrd2 from './audio/Aedwyrd2.mp3';
+import bruce from './audio/BruceEvil.mp3';
+import bruce2 from './audio/BruceJolly.mp3';
+import bruce3 from './audio/BruceMorse.mp3';
+import bruce4 from './audio/BruceWeird.mp3';
+import brittany from './audio/Brittany1.mp3';
+import brittany2 from './audio/Brittany2.mp3';
+import Eliot1 from './audio/Eliot1.mp3';
+import Eliot2 from './audio/Eliot2.mp3';
 
 const clowns = [
 
@@ -14,7 +17,7 @@ const clowns = [
         buttonName: 'Brittany01',
         clownName: 'Brittany!',
         color: 'red',
-        size: 22,
+        size: 11,
             
     },
     {
@@ -23,7 +26,7 @@ const clowns = [
         buttonName: 'Bruce01',
         clownName: 'Bruce!',
         color: 'blue',
-        size: 31,
+        size: 14,
     },
     {
         id: 3,
@@ -59,6 +62,40 @@ const clowns = [
         color: 'green',
         size: 10,
     },
+    {
+        id: 7,
+        url: Eliot1,
+        buttonName: 'Eliot01',
+        clownName: 'Eliot Alen Walnut!',
+        color: 'aqua',
+        size: 6,
+    },
+    {
+        id: 8,
+        url: Eliot2,
+        buttonName: 'Eliot02',
+        clownName: 'Eliot Alen Walnut!',
+        color: 'pink',
+        size: 3,
+    },
+    {
+        id: 9,
+        url: Aedwyrd1,
+        buttonName: 'Aedwyrd01',
+        clownName: 'Aedwyrd1!',
+        color: 'puce',
+        size: 4,
+    },
+    {
+        id: 10,
+        url: Aedwyrd2,
+        buttonName: 'Aedwyrd02',
+        clownName: 'Aedwyrd1!',
+        color: 'navy',
+        size: 7,
+    },
+
+
 
     
 ];
