@@ -5,6 +5,10 @@ At first I wasn't convinced that the app would actually be an app in my definiti
 But the more we laughed about it and came up with ideas, the more I realized it was actually a good assignment.
 It will become a silly app with clown faces that you can click on and they start laughing. I haven't decided what the interface will look like yet, just working with audio in React as an exercise.
 
+link:
+<a href="https://missfixit.github.io/clowncrack/public/index.html">
+
+Dev Notes for myself
 12/08/23
 
 I've added dynamically created buttons that play different sounds. They come from an array of objects stored in a different file. My next step is to make a click handler that will iterate over the buttons/clown objects and create a unique useState for each one. That way I can still use my playing state to run the buttons, but there will be a separate state for each button without me having to write out a different useState for each one. I want this program to work no matter how many clown objects there are in the external array file. I'm wondering if useReducer is what I want, but somehow I don't think so. I found an example using Array.from, and then using map to dynamically create all of the states. So I'll try that next.
