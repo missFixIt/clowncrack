@@ -6,7 +6,7 @@ But the more we laughed about it and came up with ideas, the more I realized it 
 It will become a silly app with clown faces that you can click on and they start laughing. I haven't decided what the interface will look like yet, just working with audio in React as an exercise.
 
 
-<a href="https://missfixit.github.io/clowncrack/public/index.html">check it out here</a>
+<a href="https://missfixit.github.io/clowncrack/index.html">check it out here</a>
 
 Dev Notes for myself
 12/08/23
