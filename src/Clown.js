@@ -1,5 +1,8 @@
 import { useState } from "react";
 import invertHex from "./invertHex";
+import { motion } from "framer-motion";
+
+
 function getRandomColor() {
     var letters = '0123456789ABCDEF';
     var color = '#';
@@ -18,25 +21,44 @@ export default function Clown(props) {
     const width = (props.clownSize * 10)+'px';
     const height = (props.clownSize * 10)+'px';
     const [play, setPlay] = useState(false);
+    const [scale, setScale] = useState(false);
+
     const clickHandler = () => {
         setPlay(!play);
         play ? document.getElementById('clown' + props.id).pause() : document.getElementById('clown' + props.id).play();
+        setScale(!scale);
     };
-    console.log(width.type, height.type);
+   
     return (
-        <div className="clown">
-            <button style={
-                {
+        <motion.div className="clown">
+            <motion.button
+                drag
+                dragConstraints={props.dragConstraints}
+                animate={scale ?{
+                    scale:  2,
+                    rotate: 20
+                }
+            :{scale: 1, rotate:60}}
+                transition={{
+                    //type: "delay", duration: 1
+                    type: "spring", duration: 5, bounce: 1
+                    //type: "tween", duration: 5
+                }}
+                onClick={clickHandler}
+                className="button"
+                style={{
                     backgroundColor: clownColor,
                     color: textColor,
-                    fontSize: props.clownSize + 'px',
+                    fontSize: `${props.clownSize * 2}px`,
                     borderRadius: '100%',
                     width: width,
                     height: height
-                }
-            } onClick={clickHandler} className="button">{props.clownName}<br/>{play ? "Stop!" : "Laugh!"}</button>
+                }}
+            >
+                {props.clownName}<br />{play ? "Stop!" : "Laugh!"}
+            </motion.button>
             <audio id={'clown' +  props.id } src={props.url} loop />
-        </div>
+        </motion.div>
     )
     
 };
