@@ -21,5 +21,5 @@ I've been busy with the holidays, but a week ago or so I solved the state issue 
 12/28/23
 I added some animation using motion framer. Still need to figure out the logic.
 Questions I have:
-Why does it re-render all the clowns with each click?
+Why does it re-render the clown on click (with new colors)?
 Research how to add collision detection to the balls so they bounce off each other.
