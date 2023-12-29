@@ -16,4 +16,10 @@ I've added dynamically created buttons that play different sounds. They come fro
 My future goals are to add animation, maybe like bouncing balls with each clown's head. and the user can interact with the balls--if you touch the mouth, it turns the sound on and off. If you swipe the ball, it will go faster and bounce harder off the side of the screen. I'd like to speed up the sound if the ball is going faster, and slow it down if the ball is going slower. If i get really fancy, I could add left-right stereo effects based on screen placement, and instead of a graphic of a clown, it could be video of each individual performer laughing, mapped onto a round ball that bounces around in 3d.
 
 12/21/23
-I've been busy with the holidays, but a week ago or so I solved the state issue by component-izing each individual clown. Clown.js takes props from a separate file of clown objects, and creates an instance that tracks its own state (of audio on/off).
+I've been busy with the holidays, but a week ago or so I solved the state issue by component-izing each individual clown. Clown.js takes props handed down through App.js, imported from a separate file of clown objects, and creates an instance that tracks its own state (of audio on/off).
+
+12/28/23
+I added some animation using motion framer. Still need to figure out the logic.
+Questions I have:
+Why does it re-render all the clowns with each click?
+Research how to add collision detection to the balls so they bounce off each other.

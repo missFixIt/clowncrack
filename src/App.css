@@ -3,18 +3,16 @@
   padding: 0;
 }
 .clown-container {
-  /* width: vw;
-  height: vh; */
-  display: grid;
-  grid-auto-flow: column dense;
-  gap: 0px;
-  grid-template: repeat(4, auto) / repeat(4, auto);
+  width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    /* grid-template: repeat(4, auto) / repeat(4, auto); */
 
 }
 .clown{
-  /* display: flex; */
-  /* display: grid;
-  grid-auto-flow: column dense; */
+  display: flex;
+    max-height: fit-content;
 }
 
 .clown .button{

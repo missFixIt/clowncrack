@@ -8,6 +8,8 @@ import brittany from './audio/Brittany1.mp3';
 import brittany2 from './audio/Brittany2.mp3';
 import Eliot1 from './audio/Eliot1.mp3';
 import Eliot2 from './audio/Eliot2.mp3';
+import Manda1 from './audio/Manda1.mp3';
+import Manda2 from './audio/Manda2.mp3';
 
 const clowns = [
 
@@ -34,7 +36,7 @@ const clowns = [
         buttonName: 'Bruce02',
         clownName: 'Bruce!',
         color: 'violet',
-        size: 5,
+        size: 25,
     },
     {
         id: 4,
@@ -42,7 +44,7 @@ const clowns = [
         buttonName: 'Bruce03',
         clownName: 'Bruce!',
         color: 'aqua',
-        size: 7,
+        size: 23,
     },
 
     {
@@ -60,7 +62,7 @@ const clowns = [
         buttonName: 'Bruce04',
         clownName: 'Bruce!',
         color: 'green',
-        size: 10,
+        size: 30,
     },
     {
         id: 7,
@@ -68,7 +70,7 @@ const clowns = [
         buttonName: 'Eliot01',
         clownName: 'Eliot Alen Walnut!',
         color: 'aqua',
-        size: 6,
+        size: 16,
     },
     {
         id: 8,
@@ -76,7 +78,7 @@ const clowns = [
         buttonName: 'Eliot02',
         clownName: 'Eliot Alen Walnut!',
         color: 'pink',
-        size: 3,
+        size: 21,
     },
     {
         id: 9,
@@ -84,7 +86,7 @@ const clowns = [
         buttonName: 'Aedwyrd01',
         clownName: 'Aedwyrd!',
         color: 'yellow',
-        size: 4,
+        size: 22,
     },
     {
         id: 10,
@@ -92,12 +94,28 @@ const clowns = [
         buttonName: 'Aedwyrd02',
         clownName: 'Aedwyrd!',
         color: 'navy',
-        size: 7,
+        size: 17,
     },
-
-
+    {
+        id: 11,
+        url: Manda1,
+        buttonName: 'Manda01',
+        clownName: 'Manda!',
+        color: 'red',
+        size: 15,
+            
+    },
+    {
+        id: 12,
+        url: Manda2,
+        buttonName: 'Manda02',
+        clownName: 'Manda!',
+        color: 'red',
+        size: 25,
+            
+    },
 
     
 ];
 export default clowns;
-export { bruce, brittany, bruce2, bruce3, bruce4, brittany2 };
+//export { bruce, brittany, bruce2, bruce3, bruce4, brittany2 };
