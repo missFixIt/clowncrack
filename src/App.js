@@ -13,11 +13,12 @@ export default function App() {
   const constraintsRef = useRef(null);
   return (
 
-    <motion.div >
+    <motion.div className='outer-container'>
       {/* <AnimatedComponent /> */}
       {/* <BouncingBall /> */}
-      <h1>Today's Clowns</h1>
+      ClownCrack
       <motion.div className='clown-container' ref={constraintsRef}>
+        
       {clowns.map(clown => (
         <Clown
           dragConstraints={constraintsRef}

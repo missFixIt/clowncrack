@@ -2,17 +2,29 @@
   margin:0;
   padding: 0;
 }
+.outer-container {
+  background: repeating-radial-gradient(circle,
+      purple,
+      purple 10px,
+      #4b026f 10px,
+      #4b026f 20px);
+  font-size: 200px;
+  color: aquamarine;
+}
 .clown-container {
-  width: 100vw;
+
+    width: 100vw;
     height: 100vh;
     display: flex;
     flex-wrap: wrap;
+    justify-content: flex-end;
+      align-items: center;
+      align-content: space-around;
     /* grid-template: repeat(4, auto) / repeat(4, auto); */
 
 }
 .clown{
-  display: flex;
-    max-height: fit-content;
+
 }
 
 .clown .button{
