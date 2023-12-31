@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/clowncrack/static/css/main.baebfb74.css",
-    "main.js": "/clowncrack/static/js/main.36e6109e.js",
+    "main.css": "/clowncrack/static/css/main.daf84245.css",
+    "main.js": "/clowncrack/static/js/main.8aa54b3b.js",
     "static/js/787.5e15b021.chunk.js": "/clowncrack/static/js/787.5e15b021.chunk.js",
     "static/media/Manda2.mp3": "/clowncrack/static/media/Manda2.6a3ea59026b7d588dc8f.mp3",
     "static/media/Manda1.mp3": "/clowncrack/static/media/Manda1.98b1bdb71c7f0220216c.mp3",
@@ -16,12 +16,12 @@
     "static/media/BruceEvil.mp3": "/clowncrack/static/media/BruceEvil.31e2042ea43b98a755a7.mp3",
     "static/media/Aedwyrd1.mp3": "/clowncrack/static/media/Aedwyrd1.9b1273c8b22ae072a34b.mp3",
     "index.html": "/clowncrack/index.html",
-    "main.baebfb74.css.map": "/clowncrack/static/css/main.baebfb74.css.map",
-    "main.36e6109e.js.map": "/clowncrack/static/js/main.36e6109e.js.map",
+    "main.daf84245.css.map": "/clowncrack/static/css/main.daf84245.css.map",
+    "main.8aa54b3b.js.map": "/clowncrack/static/js/main.8aa54b3b.js.map",
     "787.5e15b021.chunk.js.map": "/clowncrack/static/js/787.5e15b021.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.baebfb74.css",
-    "static/js/main.36e6109e.js"
+    "static/css/main.daf84245.css",
+    "static/js/main.8aa54b3b.js"
   ]
 }
