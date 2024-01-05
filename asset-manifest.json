@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/clowncrack/static/css/main.daf84245.css",
-    "main.js": "/clowncrack/static/js/main.8aa54b3b.js",
+    "main.js": "/clowncrack/static/js/main.162ea08d.js",
     "static/js/787.5e15b021.chunk.js": "/clowncrack/static/js/787.5e15b021.chunk.js",
     "static/media/Manda2.mp3": "/clowncrack/static/media/Manda2.6a3ea59026b7d588dc8f.mp3",
+    "static/media/Miranda2.mp3": "/clowncrack/static/media/Miranda2.33c2c30fc2b57861d0b6.mp3",
     "static/media/Manda1.mp3": "/clowncrack/static/media/Manda1.98b1bdb71c7f0220216c.mp3",
     "static/media/Brittany2.mp3": "/clowncrack/static/media/Brittany2.b6f04e09287e802713dd.mp3",
     "static/media/Brittany1.mp3": "/clowncrack/static/media/Brittany1.9888ee843f3698cb9830.mp3",
@@ -13,15 +14,16 @@
     "static/media/Aedwyrd2.mp3": "/clowncrack/static/media/Aedwyrd2.1aa77d90914f67abf8a3.mp3",
     "static/media/Eliot1.mp3": "/clowncrack/static/media/Eliot1.f6dbfe374121d70d18a1.mp3",
     "static/media/BruceJolly.mp3": "/clowncrack/static/media/BruceJolly.44e15f08c3d6e4fd7a01.mp3",
+    "static/media/Miranda1.mp3": "/clowncrack/static/media/Miranda1.60c441c63d444d425e92.mp3",
     "static/media/BruceEvil.mp3": "/clowncrack/static/media/BruceEvil.31e2042ea43b98a755a7.mp3",
     "static/media/Aedwyrd1.mp3": "/clowncrack/static/media/Aedwyrd1.9b1273c8b22ae072a34b.mp3",
     "index.html": "/clowncrack/index.html",
     "main.daf84245.css.map": "/clowncrack/static/css/main.daf84245.css.map",
-    "main.8aa54b3b.js.map": "/clowncrack/static/js/main.8aa54b3b.js.map",
+    "main.162ea08d.js.map": "/clowncrack/static/js/main.162ea08d.js.map",
     "787.5e15b021.chunk.js.map": "/clowncrack/static/js/787.5e15b021.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.daf84245.css",
-    "static/js/main.8aa54b3b.js"
+    "static/js/main.162ea08d.js"
   ]
 }
