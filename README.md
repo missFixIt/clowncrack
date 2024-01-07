@@ -23,3 +23,7 @@ I added some animation using motion framer. Still need to figure out the logic.
 Questions I have:
 Why does it re-render the clown on click (with new colors)?
 Research how to add collision detection to the balls so they bounce off each other.
+
+1/7/24
+I solved the balls changing color, and randomized the size of each ball, along with the colors which were already random.
+I'm now experimenting with Matter JS as a physics engine for bouncing the balls off each other.

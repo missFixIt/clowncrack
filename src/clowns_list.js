@@ -10,6 +10,8 @@ import Eliot1 from './audio/Eliot1.mp3';
 import Eliot2 from './audio/Eliot2.mp3';
 import Manda1 from './audio/Manda1.mp3';
 import Manda2 from './audio/Manda2.mp3';
+import Miranda1 from './audio/Miranda1.mp3';
+import Miranda2 from './audio/Miranda2.mp3';
 
 const clowns = [
 
@@ -17,105 +19,86 @@ const clowns = [
         id: 1,
         url: brittany,
         buttonName: 'Brittany01',
-        clownName: 'Brittany!',
-        color: 'red',
-        size: 11,
-            
+        clownName: 'Brittany!'
     },
     {
         id: 2,
         url: bruce,
         buttonName: 'Bruce01',
-        clownName: 'Bruce!',
-        color: 'blue',
-        size: 14,
+        clownName: 'Bruce!'
     },
     {
         id: 3,
         url: bruce2,
         buttonName: 'Bruce02',
-        clownName: 'Bruce!',
-        color: 'violet',
-        size: 25,
+        clownName: 'Bruce!'
     },
     {
         id: 4,
         url: bruce3,
         buttonName: 'Bruce03',
-        clownName: 'Bruce!',
-        color: 'aqua',
-        size: 23,
+        clownName: 'Bruce!'
     },
 
     {
         id: 5,
         url: brittany2,
         buttonName: 'Brittany02',
-        clownName: 'Brittany!',
-        color: 'yellow',
-        size: 12,
-            
+        clownName: 'Brittany!'
     },
     {
         id: 6,
         url: bruce4,
         buttonName: 'Bruce04',
-        clownName: 'Bruce!',
-        color: 'green',
-        size: 30,
+        clownName: 'Bruce!'
     },
     {
         id: 7,
         url: Eliot1,
         buttonName: 'Eliot01',
-        clownName: 'Eliot Alen Walnut!',
-        color: 'aqua',
-        size: 16,
+        clownName: 'Eliot Alen Walnut!'
     },
     {
         id: 8,
         url: Eliot2,
         buttonName: 'Eliot02',
-        clownName: 'Eliot Alen Walnut!',
-        color: 'pink',
-        size: 21,
+        clownName: 'Eliot Alen Walnut!'
     },
     {
         id: 9,
         url: Aedwyrd1,
         buttonName: 'Aedwyrd01',
-        clownName: 'Aedwyrd!',
-        color: 'yellow',
-        size: 22,
+        clownName: 'Aedwyrd!'
     },
     {
         id: 10,
         url: Aedwyrd2,
         buttonName: 'Aedwyrd02',
-        clownName: 'Aedwyrd!',
-        color: 'navy',
-        size: 17,
+        clownName: 'Aedwyrd!'
     },
     {
         id: 11,
         url: Manda1,
         buttonName: 'Manda01',
-        clownName: 'Manda!',
-        color: 'red',
-        size: 15,
-            
+        clownName: 'Manda!'
     },
     {
         id: 12,
         url: Manda2,
         buttonName: 'Manda02',
-        clownName: 'Manda!',
-        color: 'red',
-        size: 25,
-            
+        clownName: 'Manda!'
     },
-
-    
+    {
+        id: 13,
+        url: Miranda1,
+        buttonName: 'Miranda01',
+        clownName: 'Miranda!'
+    },
+    {
+        id: 14,
+        url: Miranda2,
+        buttonName: 'Miranda02',
+        clownName: 'Miranda!'
+    },
 ];
 export default clowns;
-//export { bruce, brittany, bruce2, bruce3, bruce4, brittany2 };

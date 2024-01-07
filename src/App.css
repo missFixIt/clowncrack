@@ -1,6 +1,7 @@
 *{
   margin:0;
   padding: 0;
+  text-align: center;
 }
 .outer-container {
   background: repeating-radial-gradient(circle,
@@ -8,27 +9,26 @@
       purple 10px,
       #4b026f 10px,
       #4b026f 20px);
-  font-size: 200px;
+  font-size: xx-large;
   color: aquamarine;
+  text-wrap: wrap;
 }
-.clown-container {
 
+.clown-container {
     width: 100vw;
     height: 100vh;
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-end;
+    justify-content: flex-start;
       align-items: center;
       align-content: space-around;
     /* grid-template: repeat(4, auto) / repeat(4, auto); */
 
 }
-.clown{
-
-}
 
 .clown .button{
   border: none;
+  /* background-image: url('./images/clown-1.svg'); */
   /* display: flex; */
   
 }

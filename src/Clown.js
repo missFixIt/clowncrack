@@ -3,32 +3,24 @@ import invertHex from "./invertHex";
 import { motion } from "framer-motion";
 
 
-function getRandomColor() {
-    var letters = '0123456789ABCDEF';
-    var color = '#';
-    for (var i = 0; i < 6; i++) {
-      color += letters[Math.floor(Math.random() * 16)];
-    }
-    return color;
-};
 
 
  
 
 
 
+
 export default function Clown(props) {
-    const clownColor = getRandomColor();
+    const clownColor = props.clownColor;
     const textColor = '#' + invertHex(clownColor);
-    const width = (props.clownSize * 10) + 'px';
-    const height = (props.clownSize * 10)+'px';
+    const clownSize = props.clownSize;
     const [play, setPlay] = useState(false);
     const [scale, setScale] = useState(false);
     const clickHandler = () => {
         setPlay(!play);
         play ? document.getElementById('clown' + props.id).pause() : document.getElementById('clown' + props.id).play();
         setScale(!scale);
-        document.getElementById('clown' + props.id).volume = (props.clownSize/3 * .1);
+        document.getElementById('clown' + props.id).volume = (clownSize * .1);
     };
     
     return (
@@ -37,7 +29,7 @@ export default function Clown(props) {
                 drag
                 dragConstraints={props.dragConstraints}
                 animate={scale ?{
-                    scale:  2,
+                    scale:  1.5,
                     rotate: 360
                 }
             :{scale: 1, rotate:0}}
@@ -52,10 +44,10 @@ export default function Clown(props) {
                 style={{
                     backgroundColor: clownColor,
                     color: textColor,
-                    fontSize: `${props.clownSize * 2}px`,
+                    fontSize: clownSize /5 + 'rem',
                     borderRadius: '100%',
-                    width: width,
-                    height: height
+                    width: clownSize  + 'rem',
+                    height: clownSize  + 'rem'
                 }}
             >
                 {props.clownName}<br />{play ? "Stop!" : "Laugh!"}
