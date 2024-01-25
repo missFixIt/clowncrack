@@ -1,29 +1,28 @@
 Admit it! Just the name makes you go 👀, and giggle nervously.
-That's kind of the point.
-This is an app my husband, who runs a circus performance troupe, dreamed up when I asked him to think of an app to build when I'd just completed my Front End Developer Certificate.
-At first I wasn't convinced that the app would actually be an app in my definition of it. Was it useful? No. It sounded like something that could be done with just HTML and CSS.
-But the more we laughed about it and came up with ideas, the more I realized it was actually a good assignment.
+That's kind of the point.  
+This is an app my husband, who runs a circus performance troupe, dreamed up when I asked him to think of an app to build. I'd just completed my Front End Developer Certificate and was asking for ideas.  
+At first I wasn't convinced that the app would actually be an 'app' in my definition of it. Was it useful? No. It sounded like something that could be done with just HTML and CSS.
+But the more we laughed about it and came up with ideas, the more I realized it was actually a good assignment to learn from.
 It will become a silly app with clown faces that you can click on and they start laughing. I haven't decided what the interface will look like yet, just working with audio in React as an exercise.
-
 
 <a href="https://missfixit.github.io/clowncrack/index.html">check it out here</a>
 
-Dev Notes for myself
-12/08/23
+## Dev Notes for myself
 
-I've added dynamically created buttons that play different sounds. They come from an array of objects stored in a different file. My next step is to make a click handler that will iterate over the buttons/clown objects and create a unique useState for each one. That way I can still use my playing state to run the buttons, but there will be a separate state for each button without me having to write out a different useState for each one. I want this program to work no matter how many clown objects there are in the external array file. I'm wondering if useReducer is what I want, but somehow I don't think so. I found an example using Array.from, and then using map to dynamically create all of the states. So I'll try that next.
+-1/7/24:
+I solved the balls changing color, and randomized the size of each ball, along with the colors which were already random.
+I'm now experimenting with Matter JS as a physics engine for bouncing the balls off each other.
+Haven't worked on it in a while though, got busy making my portfolio site.
 
-My future goals are to add animation, maybe like bouncing balls with each clown's head. and the user can interact with the balls--if you touch the mouth, it turns the sound on and off. If you swipe the ball, it will go faster and bounce harder off the side of the screen. I'd like to speed up the sound if the ball is going faster, and slow it down if the ball is going slower. If i get really fancy, I could add left-right stereo effects based on screen placement, and instead of a graphic of a clown, it could be video of each individual performer laughing, mapped onto a round ball that bounces around in 3d.
-
-12/21/23
+-12/21/23:
 I've been busy with the holidays, but a week ago or so I solved the state issue by component-izing each individual clown. Clown.js takes props handed down through App.js, imported from a separate file of clown objects, and creates an instance that tracks its own state (of audio on/off).
 
-12/28/23
+-12/28/23:
 I added some animation using motion framer. Still need to figure out the logic.
 Questions I have:
 Why does it re-render the clown on click (with new colors)?
 Research how to add collision detection to the balls so they bounce off each other.
 
-1/7/24
-I solved the balls changing color, and randomized the size of each ball, along with the colors which were already random.
-I'm now experimenting with Matter JS as a physics engine for bouncing the balls off each other.
+-12/08/23:
+I've added dynamically created buttons that play different sounds. They come from an array of objects stored in a different file. My next step is to make a click handler that will iterate over the buttons/clown objects and create a unique useState for each one. That way I can still use my playing state to run the buttons, but there will be a separate state for each button without me having to write out a different useState for each one. I want this program to work no matter how many clown objects there are in the external array file. I'm wondering if useReducer is what I want, but somehow I don't think so. I found an example using Array.from, and then using map to dynamically create all of the states. So I'll try that next.  
+My future goals are to add animation, maybe like bouncing balls with each clown's head. and the user can interact with the balls--if you touch the mouth, it turns the sound on and off. If you swipe the ball, it will go faster and bounce harder off the side of the screen. I'd like to speed up the sound if the ball is going faster, and slow it down if the ball is going slower. If i get really fancy, I could add left-right stereo effects based on screen placement, and instead of a graphic of a clown, it could be video of each individual performer laughing, mapped onto a round ball that bounces around in 3d.
